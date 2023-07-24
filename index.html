@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>pmat.pl — front-end web developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;700&family=DM+Serif+Display&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/22dd55dd17.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header class="header">
+      <a href="#">pmat.pl</a>
+      <button class="hamburger hamburger--emphatic" type="button">
+        <span class="hamburger-box">
+          <span class="hamburger-inner"></span>
+        </span>
+      </button>
+      <nav class="desktop-nav">
+        <ul>
+          <li>
+            <a
+              href="https://github.com/Juicydape"
+              class="desktop-nav__item"
+              target="_blank"
+              >github</a
+            >
+          </li>
+          <!-- <li>
+            <a href="#" class="desktop-nav__item" target="_blank">linkedIn</a>
+          </li> -->
+          <li>
+            <a href="#" class="desktop-nav__item" target="_blank">contact</a>
+          </li>
+          <li>
+            <a href="#" class="desktop-nav__item" target="_blank">resume</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <nav class="mobile-nav">
+      <ul>
+        <li>
+          <a
+            href="https://github.com/Juicydape"
+            class="mobile-nav__item"
+            target="_blank"
+            >github</a
+          >
+        </li>
+        <!-- <li>
+          <a href="#" class="mobile-nav__item" target="_blank">linkedIn</a>
+        </li> -->
+        <li>
+          <a href="#" class="mobile-nav__item" target="_blank">contact</a>
+        </li>
+        <li><a href="#" class="mobile-nav__item" target="_blank">resume</a></li>
+      </ul>
+    </nav>
+
+    <main class="main">
+      <section class="stack">
+        <h2>i use:</h2>
+        <ul>
+          <li><i class="fa-brands fa-html5 fa-2xl"></i></li>
+          <li><i class="fa-brands fa-css3-alt fa-2xl"></i></li>
+          <li><i class="fa-brands fa-sass fa-2xl"></i></li>
+
+          <li><i class="fa-brands fa-js fa-2xl"></i></li>
+          <li><i class="fa-brands fa-react fa-2xl"></i></li>
+          <li><i class="fa-brands fa-git-alt fa-2xl"></i></li>
+        </ul>
+      </section>
+      <section class="content">
+        <div class="content__about">
+          <h1>hi, i'm Piotr and i'd like You to check out my work</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
+            blanditiis perferendis quaerat soluta dicta, magnam alias! Quos
+            sequi impedit nostrum neque, voluptatibus doloribus quia mollitia
+            commodi adipisci excepturi ratione atque!
+          </p>
+        </div>
+        <div class="content__projects">
+          <h2>my projects:</h2>
+          <div class="content__project-card">
+            <div class="project__thumbnail"></div>
+            <div class="project__text-content">
+              <h2 class="project__title">nSuns Progresja liniowa</h2>
+              <p class="project__stack">JS + React + Sass</p>
+            </div>
+          </div>
+          <div class="content__project-card content__project-card--2nd-project">
+            <div class="project__thumbnail"></div>
+            <div class="project__text-content">
+              <h2 class="project__title">Voldar.pl</h2>
+              <p class="project__stack">JS + Sass + Gulp</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

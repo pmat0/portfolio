@@ -1,0 +1,46 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --black-01: #252525;
+  --black-02: #4a4a4a;
+  --black-03: #6f6f6f;
+  --black-04: #949494;
+  --black-05: #b9b9b9;
+  --black-06: #dedede;
+  --black-07: #fafafa;
+
+  --text: #252525;
+  --primary: #ebd98e;
+  --secondary: #d3dbf8;
+  --accent: #d9b526;
+
+  --serif: "DM Serif Display", serif;
+  --sans: "DM Sans", sans-serif;
+}
+
+body {
+  background-color: var(--black-07);
+  color: var(--black-01);
+  font-family: var(--sans);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--serif);
+  line-height: 1.5;
+  text-shadow: -2px 2px 50px var(--black-03);
+}
+
+p {
+  line-height: 1.6;
+}
