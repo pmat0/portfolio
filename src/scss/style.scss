@@ -110,9 +110,20 @@
 }
 
 .content {
+  a {
+    text-decoration: none;
+    color: var(--black-01)
+  }
   &__about {
     margin: 0 auto;
     max-width: 25ch;
+
+    h2 {
+      margin-top: 0.6em;
+      margin-bottom: 0.2em;
+    } li {
+      margin-left: 10px;
+    }
   }
 
   &__projects {
@@ -151,6 +162,10 @@
     width: 180px;
     background-size: cover;
     border-radius: 10px;
+
+    &--2nd-project {
+      background-image: url("../img/voldar.png");
+    }
   }
 
   &__stack {
